@@ -1,0 +1,67 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aquamarine;
+    border: 1px blue;
+    height: 150px;
+    width: 100%;
+}
+
+body {
+    background-image: url('https://images.creativemarket.com/0.1.0/ps/11962910/600/400/m2/fpnw/wm1/happy_cupcake_kawaii_cm-.jpg?1645723266&s=4baf0daaf3bbcd7f3667461110f9dda2&fmt=webp');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 65%;
+    height: 100%;
+    background-color: rgba(245, 245, 220, 0.75);
+    border: 1px grey solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.cart-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 25%;
+}
+
+.all-cupcakes-container {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.cupcake-container {
+    border: 2px grey solid;
+    border-radius: 10px;
+    margin-top: 5%;
+    padding: 15px;
+}
+
+.flavor-frosting {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+h5 {
+    margin: 10px 10px 10px 0px;
+}
+
+#cupcake-order {
+    width: 85%;
+}
